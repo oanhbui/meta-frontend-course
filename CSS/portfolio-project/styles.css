@@ -1,0 +1,141 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(30, 121, 104);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+    animation: animate 3s linear infinite
+}
+@keyframes animate{
+    0%{
+      opacity: 0;
+    }
+    25%{
+        opacity: 0.8;
+    }
+    50%{
+      opacity: 1;
+    }
+    75%{
+        opacity: 0.8;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+
+.sale-banner {
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 3rem;
+    border: solid rgb(28, 145, 124);
+    border-radius: 2mm;
+}
+
+nav li {
+    display: inline-block;
+    padding: 1rem;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(252, 149, 24)
+}
+
+main > section {
+    text-align: center;
+}
+
+.promotion {
+    border: solid white;
+    border-radius: 2mm;
+    border-radius: 0.2;
+    background-color: bisque;
+}
+
+section {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.products article {
+    margin-left: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+    border: solid white;
+    border-radius: 2mm;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+}
+
+.products .title {
+    flex: 1;
+}
+
+.products img {
+    width: 100%;
+    max-width: fit-content;
+    border: solid;
+    border-radius: 2mm;
+    flex: 10;
+}
+
+.products a {
+    flex: 1;
+    text-decoration: none;
+    margin-top: 1em;
+    border: solid rgb(30, 121, 104);
+    border-radius: 2mm;
+    background-color: white;
+    color:rgb(30, 121, 104);
+    text-transform: uppercase;
+}
+
+article {
+    flex: 1;
+}
+
+.divider {
+    margin-top: 3rem;
+    border-top: solid rgb(30, 121, 104);
+    margin-left: 20%;
+    margin-right: 20%
+}
+
+footer {
+    display: flex;
+    margin-top: 5rem;
+}
+
+footer div {
+    flex: 1;
+    text-align: center;
+}
